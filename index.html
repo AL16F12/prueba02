@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+               
+        
+        <link href="css/jquery.mobile.structure-1.3.2.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/fifa_world_cup.min.css">
+    
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script src="js/jquery.mobile-1.3.2.min.js"></script>
+        <script src="js/acciones.js"></script>        
+        
+
+        <script>
+function Cambiarplaneta ()
+{
+	elemento= document.getElementById('planeta');
+	if (elemento.src.match("mundo.gif"))
+	{elemento.src="imagenes/brazil.gif";}
+	else
+	{elemento.src="imagenes/mundo.gif";}
+}	
+
+
+</script>
+        <!-- necesario*/ -->
+    </head>
+    
+    <body>
+        <div data-role="page" id="principal" data-theme="a">
+	<div data-role="header" data-position="fixed">
+		<h1>2014 FIFA WORLD CUP BRAZIL</h1>
+	</div>
+	<div data-role="content" align="center" style="background:#FF0">
+    <img src="imagenes/descarga.jpg" width="259" height="194" >	
+		<ul data-role="listview">
+			<li><a href="#historia">Historia</a></li>
+            <li><a href="#campeones">Campeones y Cedes</a></li>
+			<li><a href="#mexico">México en Copas Mundiales</a></li>
+            <li><a href="#brazil">Mundial Brazil 2014</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>2014 FIFA WORLD CUP BRAZIL</h4>
+	</div>
+</div>
+
+<div data-role="page" id="historia">
+	<div data-role="header" data-position="fixed">
+    
+		<h1>HISTORIA</h1>
+	</div>
+	<div data-role="content" align="center" style="background:#FF0" >	
+   <video controls>
+   <source src="imagenes/mundial.mp4" type="video/mp4">
+   
+   </video>
+   
+    <br>
+    <br>
+		La Copa Mundial de la FIFA, también conocida como Copa Mundial de Fútbol, Copa del Mundo o Mundial, cuyo nombre original fue Campeonato Mundial de Fútbol, es el torneo internacional de fútbol masculino a nivel de selecciones nacionales más importante del mundo.
+        <br>
+        <br>
+        Este evento deportivo se realiza cada cuatro años desde 1930, con la excepción de los años de 1942 y 1946, en los que se suspendió debido a la Segunda Guerra Mundial. Cuenta con dos etapas principales: un proceso clasificatorio en el que participan en la actualidad cerca de 200 selecciones nacionales y una fase final realizada cada cuatro años en una sede definida con anticipación en la que participan 32 equipos durante un periodo cercano a un mes.
+        <br>
+        <br>
+        La Copa Mundial de la FIFA ha sido realizada en 19 ocasiones, en las que ocho países han alzado la copa: Brasil es el equipo más exitoso, con cinco victorias; Italia le sigue con cuatro trofeos, mientras que Alemania tiene tres; Argentina y Uruguay la han ganado dos veces, en tanto que Inglaterra, Francia y la actual campeona España se han titulado campeones una sola ocasión.		
+	</div>
+    
+
+    
+	<div data-role="footer" data-position="fixed"  >
+    <a href="#principal" data-role="button" data-inline="true" data-icon="arrow-l" data-iconpos="left" > atras
+        </a>
+		<h4>2014 FIFA WORLD CUP BRAZIL</h4>
+	</div>
+</div>
+
+<div data-role="page" id="campeones">
+	<div data-role="header" data-position="fixed">
+		<h1>CAMPEONES Y CEDES</h1>
+	</div>
+	<div data-role="content" align="center" style="background:#FF0">	
+		<table border="2" align="center">
+        <tr>
+         <th> Año </th>
+         <th> Sede </th>
+         <th> Campeon </th>
+         <th> Subcampeon </th>
+         <th> Resultado </th>
+         </tr>
+          <tr> 
+          <td> 1930 </td>
+          <td> Montevideo </td>
+          <td> URUGAY </td>
+          <td> ARGENTINA </td>
+          <td> 4-2 </td>
+          </tr>
+          <tr>
+          <td> 1934 </td>
+          <td> roma </td>
+          <td> ITALIA </td>
+          <td> CHECOSLOVAQUIA </td>
+          <td> 2-1 </td>
+          </tr>
+          <tr>
+          <td>1938  </td>
+          <td> Paris </td>
+          <td> ITALIa  </td>
+          <td> HUNGRIA  </td>
+          <td> 4-2 </td>
+          </tr>
+          <tr>
+          <td> 1950 </td>
+          <td> Rio de Janerio </td>
+          <td> HURUGAY </td>
+          <td> BRAZIL </td>
+          <td> 2-1 </td>
+          </tr>
+          <tr>
+          <td> 1954 </td>
+          <td> Berna </td>
+          <td> ALEMANIA </td>
+          <td>HUNGRIA  </td>
+          <td> 3-2 </td>
+          </tr>
+          <tr>
+          <td> 1958 </td>
+          <td> Estocolmo </td>
+          <td> BRAZIL </td>
+          <td> SUECIA </td>
+          <td> 5-2 </td>
+          </tr>
+          <tr>
+          <td> 1962 </td>
+          <td> Santiago </td>
+          <td> BRAZIL </td>
+          <td> CHESLOVAQUIA </td>
+          <td> 3-1 </td>
+          </tr>
+          <tr>
+          <td> 1966 </td>
+          <td> Londres </td>
+          <td> INGLATERRA </td>
+          <td> ALEMANIA </td>
+          <td> 4-2 </td>
+          </tr>
+          <tr>
+          <td> 1970 </td>
+          <td> Mexico </td>
+          <td> BRAZIL </td>
+          <td> ITALIA </td>
+          <td> 4-1 </td>
+          </tr>
+          <tr>
+          <td> 1974 </td>
+          <td> MUNICH </td>
+          <td> ALEMANIA </td>
+          <td> HOLANDA </td>
+          <td> 2-1 </td>
+          </tr>
+          <tr>
+          <td> 1978 </td>
+          <td> buenos Aires </td>
+          <td> ARGENTINA </td>
+          <td> HOLANDA </td>
+          <td> 3-1 </td>
+          </tr>
+          <tr>
+          <td> 1982 </td>
+          <td> Madrid </td>
+          <td> ITALIA </td>
+          <td> ALEMANIA </td>
+          <td> 3-1 </td>
+          </tr>
+          <tr>
+          <td> 1986 </td>
+          <td> Mexico </td>
+          <td> ARGENTINA </td>
+          <td> ALEMANIA </td>
+          <td> 3-2 </td>
+          </tr>
+          <tr>
+          <td> 1990 </td>
+          <td> Roma </td>
+          <td> ALEMANIA </td>
+          <td> ARGENTINA </td>
+          <td> 1-0 </td>
+          </tr>
+          <tr>
+          <td> 1994 </td>
+          <td> Los Angeles </td>
+          <td> BRAZIL </td>
+          <td> ITALIA </td>
+          <td> 0-0 (3-2 P) </td>
+          </tr>
+          <tr>
+          <td> 1998 </td>
+          <td> Paris </td>
+          <td> FRANCIA </td>
+          <td> BRAZIL </td>
+          <td> 3-0 </td>
+          </tr>
+          <tr>
+          <td> 2002 </td>
+          <td> Yokohama </td>
+          <td> BRAZIL </td>
+          <td> ALEMANIA </td>
+          <td> 3-2 </td>
+          </tr>
+          <tr>
+          <td> 2006 </td>
+          <td> Berlin </td>
+          <td> ITALIA </td>
+          <td> FRANCIA </td>
+          <td> 1-1 (5-3 P) </td>
+          </tr>
+          <tr>
+          <td> 2010 </td>
+          <td> Johannespurgo </td>
+          <td> ESPAÑA </td>
+          <td> HOLANDA </td>
+          <td> 1-0 </td>
+          </tr>
+        	</table>
+            <img src="imagenes/brazuca.jpg" width="200" height="150">	
+	</div>
+	<div data-role="footer" data-position="fixed">
+    <a href="#principal" data-role="button" data-inline="true" data-icon="arrow-l" data-iconpos="left"> atras
+        </a>
+		<h4>2014 FIFA WORLD CUP BRAZIL</h4>
+	</div>
+</div>
+
+<div data-role="page" id="mexico">
+	<div data-role="header" data-position="fixed">
+		<h1>MEXICO EN COPAS MUNDIALES</h1>
+	</div>
+	<div data-role="content" align="center" style="background:#FF0">
+    <img src="imagenes/visitantep.gif" width="320" height="357">
+    <img src="imagenes/localp.gif" width="250" height="250">
+    <br>
+		<h1> SELECCIONADOS </h1>
+        <table border="2" align="center">
+        <tr> 
+        <th> Foto </th>
+        <th> Nombre </th>
+        <th> Equipo </th>
+        <th> Posicion </th>
+        </tr>
+        <tr align="center">
+        <td> <img src="jugadores/ochoa.jpg" width="100" height="100"> </td>
+        <td> Guillermo Ochoa </td>
+        <td> Ajaccio </td>
+        <td> Potero </td>
+        </tr>
+        <tr align="center">
+        <td> <img src="jugadores/corona.jpg" width="100" height="100"> </td>
+        <td> Jesus Corona </td>
+        <td> Cruz Azul </td>
+        <td> Portero </td>
+        </tr>
+         <tr align="center">
+        <td> <img src="jugadores/talavera.jpg" width="100" height="100"> </td>
+        <td> Alefredo Talavera </td>
+        <td> Toluca </td>
+        <td> Portero </td>
+        </tr>
+         <tr align="center">
+        <td> <img src="jugadores/aguilar.jpg" width="100" height="100"> </td>
+        <td> Paul Aguilar </td>
+        <td> America </td>
+        <td> Defensa </td>
+        </tr>
+         <tr align="center">
+        <td> <img src="jugadores/layún.jpg" width="100" height="100"> </td>
+        <td> Miguel Layun </td>
+        <td> America </td>
+        <td> Defensa </td>
+        </tr>
+         <tr align="center">
+        <td> <img src="jugadores/reyes.jpg" width="100" height="100"> </td>
+        <td> Diego Reyes </td>
+        <td> FC Porto </td>
+        <td> Defensa </td>
+        </tr>
+         <tr align="center">
+        <td> <img src="jugadores/márquez.jpg" width="100" height="100"> </td>
+        <td> Rafael Marquez </td>
+        <td> Leon </td>
+        <td> Defensa </td>
+        </tr>
+         <tr align="center">
+        <td> <img src="jugadores/ayala.jpg" width="100" height="100"> </td>
+        <td> Hugo Ayala </td>
+        <td> Tigres </td>
+        <td> DEfensa </td>
+        </tr>
+         <tr align="center">
+        <td> <img src="jugadores/moreno.jpg" width="100" height="100"> </td>
+        <td> Hector Moreno </td>
+        <td> Espanyol de Barcelona </td>
+        <td> Defensa </td>
+        </tr>
+         <tr align="center">
+        <td> <img src="jugadores/salcido.jpg" width="100" height="100"> </td>
+        <td> Carlos Salcido </td>
+        <td> Tigres </td>
+        <td> Defensa </td>
+        </tr>
+         <tr align="center">
+        <td> <img src="jugadores/guardado.jpg" width="100" height="100"> </td>
+        <td> Andres Guardado </td>
+        <td> Bayer Leverkusen </td>
+        <td> Defensa </td>
+        </tr>
+        <tr align="center">
+        <td> <img src="jugadores/medina.jpg" width="100" height="100"> </td>
+        <td> Juan Carlos Medina </td>
+        <td> America </td>
+        <td> Volnate </td>
+        </tr>
+        <tr align="center">
+        <td> <img src="jugadores/vásquez.jpg" width="100" height="100"> </td>
+        <td> Jose Juan Vasquez </td>
+        <td> Leon </td>
+        <td> Volante </td>
+        </tr>
+        <tr align="center">
+        <td> <img src="jugadores/brizuela.jpg" width="100" height="100"> </td>
+        <td> Isaac Brizuela </td>
+        <td> Toluca </td>
+        <td> Volante </td>
+        </tr>
+        <tr align="center">
+        <td> <img src="jugadores/montes.jpg" width="100" height="100"> </td>
+        <td> Luis Montes </td>
+        <td> Leon </td>
+        <td> Volante </td>
+        </tr>
+        <tr align="center">
+        <td> <img src="jugadores/peña.jpg" width="100" height="100"> </td>
+        <td> Carlos Peña </td>
+        <td> Leon </td>
+        <td> Volante </td>
+        </tr>
+        <tr align="center">
+        <td> <img src="jugadores/fabián.jpg" width="100" height="100"> </td>
+        <td> Marco Fabian  </td>
+        <td> Cruz Azul </td>
+        <td> Volante </td>
+        </tr>
+        <tr align="center">
+        <td> <img src="jugadores/herrera.jpg" width="100" height="100"> </td>
+        <td> Hector Herrera </td>
+        <td> FC Porto </td>
+        <td> Volante </td>
+        </tr>
+        <tr align="center">
+        <td> <img src="jugadores/jiménez.jpg" width="100" height="100"> </td>
+        <td> Raul Jimenez </td>
+        <td> America </td>
+        <td> Delantero </td>
+        </tr>
+        <tr align="center">
+        <td> <img src="jugadores/pulido.jpg" width="100" height="100"> </td>
+        <td> Alan Pulido </td>
+        <td> Tigres </td>
+        <td> Delantero </td>
+        </tr>
+        <tr align="center">
+        <td> <img src="jugadores/hernández.jpg" width="100" height="100"> </td>
+        <td> Javier Hernandez </td>
+        <td> Manchester United </td>
+        <td> Delantero </td>
+        </tr>
+        <tr align="center">
+        <td> <img src="jugadores/dos santos.jpg" width="100" height="100"> </td>
+        <td> Giovanni Dos Santos </td>
+        <td> Villareal </td>
+        <td> Delantero </td>
+        </tr>
+        <tr align="center">
+        <td> <img src="jugadores/peralta.jpg" width="100" height="100"> </td>
+        <td> Oribe Peralta </td>
+        <td> Santos </td>
+        <td> Delantero </td>
+        </tr>
+        
+        </table>	
+	</div>
+	<div data-role="footer" data-position="fixed">
+    <a href="#principal" data-role="button" data-inline="true" data-icon="arrow-l" data-iconpos="left"> atras
+        </a>
+		<h4>2014 FIFA WORLD CUP BRAZIL</h4>
+	</div>
+</div>
+
+<div data-role="page" id="brazil">
+	<div data-role="header" data-position="fixed">
+		<h1>MUNDIAL BRAZIL 2014</h1>
+	</div>
+	<div data-role="content" align="center" style="background:#FF0">
+    	<img src="imagenes/mundo.gif" width="400" height="410" id="planeta" onClick="Cambiarplaneta ()" >
+				<h1> ¡¡¡Faltan 30 Dias para el mundial....!!!!!! </h1>
+                <br>
+                <div align="center">
+                <img src="imagenes/grupos.jpg" width="700" height="400" >
+                <br>
+                <h2> Favoritos para el mundial </h2>
+                <img src="imagenes/alemana.png" width="200" height="200">
+                <img src="imagenes/belgica.png" width="200" height="200">
+                <img src="imagenes/brasil.gif" width="200" height="200">
+                <img src="imagenes/españa.gif" width="200" height="200">
+                <img src="imagenes/holanda.gif" width="250" height="250">
+                <br>
+                
+	</div>
+    </div>
+   
+	<div data-role="footer" data-position="fixed">
+    <a href="#principal" data-role="button" data-inline="true" data-icon="arrow-l" data-iconpos="left"> atras
+        </a>
+		<h4>2014 FIFA WORLD CUP BRAZIL</h4>
+	</div>
+</div>
+    </body>
+
+</html>
